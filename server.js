@@ -70,4 +70,3 @@ app.use('/graphql', graphqlHTTP({
 app.use(express.static('public'))
 
 app.listen(3000)
-//nodemon
