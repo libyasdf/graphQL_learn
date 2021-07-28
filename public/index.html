@@ -8,6 +8,7 @@
 </head>
 <body>
     <button onclick="getData()">获取数据</button>
+    <button onclick="updateData()">修改数据</button>
 </body>
 <script>
     function getData() {
@@ -37,6 +38,12 @@
         })
         .then(res => res.json)
         .then(json => console.log(json))
+    }
+
+    function updateData(){
+        const query =`
+        `
+        
     }
 </script>
 </html>
